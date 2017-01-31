@@ -2,6 +2,7 @@ body {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC);
 }
 
 p {font-size: 16px;}
@@ -46,3 +47,13 @@ p {font-size: 16px;}
 }
 /*HELPER MARGIN H3 IMG*/
 .margin {margin-bottom: 45px;}
+
+/*COUNT-UP NUMBERS*/
+.counter{
+    color: yellow;
+    font-size: 50px;
+}
+.SUB{
+    font-size: 50px;
+    color: yellow;
+}

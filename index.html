@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--JS BOOTSTRAP-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
 </head>
 
 <body>
@@ -70,10 +71,21 @@
             </div>
         </div>
     </div>
+    <span class="counter">200</span><h3 class="SUB">SUBSCRIBERS</h3>
     <!--FOOTER-->
     <footer class="container-fluid bg-4 text-center">
         <p>@THEYOUNGONE</p>
     </footer>
+    <!--COUNTER-UP-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10, //delay in milliseconds per number count up
+                time: 10000 //total duration of the count up animation in milliseconds
+            });
+        });
+    </script>
 </body>
-
 </html>
